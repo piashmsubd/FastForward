@@ -28,7 +28,7 @@ jobs:
         run: node ./scripts/build.js chromium nover
 
       - name: Upload Package Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: FastForward_chromium
           path: build/dist
