@@ -54,7 +54,7 @@ jobs:
         run: node ./scripts/build.js firefox nover
 
       - name: Upload Package Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: FastForward_firefox
           path: build/dist
